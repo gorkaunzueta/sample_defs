@@ -1,10 +1,11 @@
-CFE_LIB, bcm2835_lib.so, BCM2835_LIB_Init, BCM2835_LIB,   0,   0,     0x0, 0;
-CFE_LIB, mpu9dof_lib.so, MPU9DOF_LIB_Init, MPU9DOF_LIB,   0,   0,     0x0, 0;
-CFE_APP, imu_app.so,  	 IMU_APP_Main,     IMU_APP,   	 60,   16384, 0x0, 0;
-CFE_APP, gps_app.so,  	 GPS_APP_Main,     GPS_APP,   	 60,   16384, 0x0, 0;
-CFE_APP, ci_lab.so,      CI_Lab_AppMain,   CI_LAB_APP,   70,   16384, 0x0, 0;
-CFE_APP, to_lab.so,      TO_Lab_AppMain,   TO_LAB_APP,   80,   16384, 0x0, 0;
-CFE_APP, sch_lab.so,     SCH_Lab_AppMain,  SCH_LAB_APP,  90,   16384, 0x0, 0;
+CFE_LIB, bcm2835_lib.so, 	BCM2835_LIB_Init, 	BCM2835_LIB,      0,   0,     0x0, 0;
+CFE_LIB, mpu9dof_lib.so, 	MPU9DOF_LIB_Init, 	MPU9DOF_LIB,      0,   0,     0x0, 0;
+CFE_LIB, gpsnodemcu_lib.so, 	GPSNODEMCU_LIB_Init, 	GPSNODEMCU_LIB,   0,   0,     0x0, 0;
+CFE_APP, imu_app.so,  	 	IMU_APP_Main,     	IMU_APP,   	 60,   16384, 0x0, 0;
+CFE_APP, gps_app.so,  	 	GPS_APP_Main,     	GPS_APP,   	 60,   16384, 0x0, 0;
+CFE_APP, ci_lab.so,      	CI_Lab_AppMain,   	CI_LAB_APP,      70,   16384, 0x0, 0;
+CFE_APP, to_lab.so,      	TO_Lab_AppMain,   	TO_LAB_APP,      80,   16384, 0x0, 0;
+CFE_APP, sch_lab.so,     	SCH_Lab_AppMain,  	SCH_LAB_APP,     90,   16384, 0x0, 0;
 !
 ! Startup script fields:
 ! 1. Object Type      -- CFE_APP for an Application, or CFE_LIB for a library.
